@@ -1,0 +1,50 @@
+body {
+          margin: 0;
+          padding: 0;
+        }
+        
+
+
+.home_img{
+          height: 500px;
+          width:100%;
+}
+
+.root_home {
+          position: relative; 
+          height: 500px;
+          width: 100%;
+          margin-top: 30px;
+          /* margin: 20px; */
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+        }
+        
+        .home_Card {
+          background-color: rgb(255, 255, 255);
+          height: 450px;
+          width: 500px;
+          position: absolute;
+          top: 420px; 
+          left: 1000px;
+          border-radius: 5px;
+          display: flex;
+          justify-content: center;
+          text-align: left;
+          /* align-items: center; */
+          
+        }
+        .home_content{
+          height: 200px;
+          position: absolute;
+          top: 30px;
+          margin: 30px;          
+          color:black;
+          /* font-weight:lighter; */
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+          font-size: 40px;
+
+        }

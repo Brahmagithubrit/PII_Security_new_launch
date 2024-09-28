@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
   return (
@@ -8,7 +10,10 @@ export default function Header() {
       <div className="logo">T3 The Team Tenacious</div>
       <div className="searchContainer">
         <input id='search' type="text" />
-        <button id="search_btn">search</button>
+        <div className = "search_container">
+          <FontAwesomeIcon icon={faMagnifyingGlass} className="icon-style"  /> 
+          <button id="search_btn">search</button>
+        </div>
       </div>
       <div className="desc">
         <Link to="/">Home</Link>
