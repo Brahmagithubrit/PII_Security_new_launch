@@ -7,8 +7,11 @@
 html,
 body {
   width: 100%;
-  height: 100%;
-  background-color: rgb(70, 12, 102);
+  height: 100%;background: rgb(0,0,0);
+  background: -moz-radial-gradient(circle, rgba(0,0,0,0.7137668299741772) 25%, rgba(0,0,0,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(0,0,0,0.7137668299741772) 25%, rgba(0,0,0,1) 100%);
+  background: radial-gradient(circle, rgba(0,0,0,0.7137668299741772) 25%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
 
 .header {
