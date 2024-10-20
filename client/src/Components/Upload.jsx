@@ -42,7 +42,7 @@ const Upload = () => {
           />
         </div>
       )}
-      <button onClick={handleUpload}>Upload</button>
+      <button id="upload_btn_1" onClick={handleUpload}>Upload</button>
     </div>
   );
 };

@@ -1,50 +1,65 @@
 body {
-          margin: 0;
-          padding: 0;
-        }
-        
+  margin: 0;
+  padding: 0;
+}
 
+.home_img {
+  height: 500px;
+  width: 100%;
+}
 
-.home_img{
-          height: 500px;
-          width:100%;
+.hero-container {
+  position: relative;
+  width: 99%;
+  border-radius: 20px;
+  height: 900px;
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.hero-video {
+  width: 100%;  border-radius: 20px;
+
+  height: 100%;
+  padding: 100px;
+  object-fit: cover; /* Cover the entire area while maintaining aspect ratio */
+}
+
+.hero-container {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust to center */
+  color: white; /* Change text color for better visibility */
+  text-align: center; /* Center the text */
+  z-index: 2; /* Make sure content is above the video */
 }
 
 .root_home {
-          position: relative; 
-          height: 500px;
-          width: 100%;
-          margin-top: 30px;
-          /* margin: 20px; */
-          display: flex;
-          justify-content: center;
-          text-align: center;
-          align-items: center;
-        }
-        
-        .home_Card {
-          background-color: rgb(255, 255, 255);
-          height: 450px;
-          width: 500px;
-          position: absolute;
-          top: 420px; 
-          left: 1000px;
-          border-radius: 5px;
-          display: flex;
-          justify-content: center;
-          text-align: left;
-          /* align-items: center; */
-          
-        }
-        .home_content{
-          height: 200px;
-          position: absolute;
-          top: 30px;
-          margin: 30px;          
-          color:black;
-          /* font-weight:lighter; */
-          font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position: fixed;
+}
 
-          font-size: 40px;
+.home_Card {
+  background-color: rgb(255, 255, 255);
+  height: 450px;
+  width: 500px;
+  position: absolute;
+  top: 420px;
+  left: 1000px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  /* align-items: center; */
+}
+.home_content {
+  height: 200px;
+  position: absolute;
+  top: 30px;
+  margin: 30px;
+  color: black;
+  /* font-weight:lighter; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-        }
+  font-size: 40px;
+}

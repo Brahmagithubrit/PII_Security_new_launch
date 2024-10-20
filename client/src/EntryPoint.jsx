@@ -12,7 +12,7 @@ function EntryPoint() {
         <main>
         <Outlet />
         </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
